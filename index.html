@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Baatlegile Mofokeng – Experience Designer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Brand fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700&family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body class="lab-body">
+  <div class="lab-layout">
+    <!-- LEFT: PROFILE PANEL WITH LOGO + TABS -->
+    <aside class="lab-left">
+      <div class="brand-header">
+        <img src="./assets /Logo.png .png" alt="Personal logo of Baatlegile" class="brand-logo" />
+        <span class="brand-line">Portfolio  ·  Experience Design</span>
+      </div>
+
+      <div class="lab-profile">
+        <div class="logo-mark">BM</div>
+        <img src="BaatlegileMofokeng.github.io/assets
+/IMG_0160.JPG" alt="Portrait of Baatlegile" class="profile-photo" />
+        <h1 class="profile-name">Baatlegile Mofokeng</h1>
+        <p class="profile-role">Experience Designer · UX/UI</p>
+        <p class="profile-location">Pretoria, South Africa</p>
+        <p class="profile-tagline">
+          Designs that breathe order through chaos.
+        </p>
+      </div>
+
+      <div class="lab-tabs">
+        <button class="lab-tab active" data-panel="about">About</button>
+        <button class="lab-tab" data-panel="skills">Skills</button>
+        <button class="lab-tab" data-panel="philosophy">Philosophy</button>
+      </div>
+
+      <div class="lab-panels">
+        <section class="lab-panel active" id="panel-about">
+          <h2>About</h2>
+          <p>
+            I’m an Experience Designer from Pretoria who merges creativity with strategic
+            thinking. I love taking broad, sometimes chaotic ideas and shaping them into
+            digital products that feel intentional, human and memorable.
+          </p>
+          <p>
+            My work spans UX/UI, brand experiences and interactive concepts that often
+            explore AR, microsites, behaviour change and speculative futures. I care
+            about how people feel when they move through a journey, not just how it looks.
+          </p>
+        </section>
+
+        <section class="lab-panel" id="panel-skills">
+          <h2>Skills</h2>
+          <div class="tag-grid">
+            <span class="tag">UX Research</span>
+            <span class="tag">User Interviews</span>
+            <span class="tag">Journey Mapping</span>
+            <span class="tag">Information Architecture</span>
+            <span class="tag">UI Design (Figma)</span>
+            <span class="tag">Wireframing & Prototyping</span>
+            <span class="tag">Design Systems</span>
+            <span class="tag">Adobe Illustrator</span>
+            <span class="tag">Adobe Photoshop</span>
+            <span class="tag">Adobe After Effects</span>
+            <span class="tag">Visual Studio Code</span>
+            <span class="tag">Microsoft Office</span>
+            <span class="tag">Instagram Marketing</span>
+          </div>
+        </section>
+
+        <section class="lab-panel" id="panel-philosophy">
+          <h2>Design Philosophy</h2>
+          <p>
+            Creativity isn’t just about aesthetics; it’s a way of motivating, inspiring
+            and changing people. I’m interested in what makes someone feel a certain way
+            about a brand or interface, and how design can make things easier while
+            sparking imagination.
+          </p>
+          <p>
+            People will always interpret design individually. I can’t control their
+            feelings, but I can be intentional about the story, structure and interaction
+            so my communication is clear, even when the context feels chaotic.
+          </p>
+        </section>
+      </div>
+
+      <div class="lab-contact">
+        <h3>Contact</h3>
+        <a href="mailto:Baatlegile@gmail.com" class="link">Baatlegile@gmail.com</a>
+        <a href="https://linkedin.com/in/baatlegile-mofokeng-250aa5182"
+           target="_blank" rel="noopener noreferrer" class="link">
+          LinkedIn
+        </a>
+        <a href="https://www.instagram.com/MonkeeBleu.live"
+           target="_blank" rel="noopener noreferrer" class="link">
+          Instagram @MonkeeBleu.live
+        </a>
+      </div>
+    </aside>
+
+    <!-- RIGHT: PROJECT CARDS -->
+    <main class="lab-right">
+      <header class="lab-header">
+        <p class="kicker">Case Studies</p>
+        <h2>Selected experiences from my design practice.</h2>
+        <p>
+          From AR skincare to conservation storytelling and speculative futures,
+          these projects show how I move from messy realities to considered,
+          human-centred experiences.
+        </p>
+      </header>
+
+      <section class="lab-project-list">
+        <article class="lab-card" data-case="vaseline">
+          <div class="lab-card-top">
+            <h3>Vaseline Glow – AR Skincare Journey</h3>
+            <span class="lab-pill">AR</span>
+          </div>
+          <p class="lab-card-meta">Student Brief · UX/UI · Campaign Experience</p>
+          <p class="lab-card-desc">
+            An AR-powered skin scan and social challenge that repositions
+            Vaseline as a personalised, playful skincare companion for Gen Z.
+          </p>
+          <button class="lab-card-btn" data-open-drawer="vaseline">Open case</button>
+        </article>
+
+        <article class="lab-card" data-case="blue-owl">
+          <div class="lab-card-top">
+            <h3>Blue Owl – Conservation Microsite</h3>
+            <span class="lab-pill">Brand Experience</span>
+          </div>
+          <p class="lab-card-meta">Allee Bleue · Collaboration</p>
+          <p class="lab-card-desc">
+            A microsite that honours wine heritage while turning an endangered
+            owl into both a brand icon and conservation symbol.
+          </p>
+          <button class="lab-card-btn" data-open-drawer="blue-owl">Open case</button>
+        </article>
+
+        <article class="lab-card" data-case="recycling">
+          <div class="lab-card-top">
+            <h3>Recycling League – Behaviour Change App</h3>
+            <span class="lab-pill">Behavioural UX</span>
+          </div>
+          <p class="lab-card-meta">Student Brief · UX</p>
+          <p class="lab-card-desc">
+            A family-focused experience that makes household recycling more
+            emotional, educational and easy to navigate.
+          </p>
+          <button class="lab-card-btn" data-open-drawer="recycling">Open case</button>
+        </article>
+
+        <article class="lab-card" data-case="era">
+          <div class="lab-card-top">
+            <h3>Era App – Future Generational Bridge</h3>
+            <span class="lab-pill">Futures</span>
+          </div>
+          <p class="lab-card-meta">Student Brief · Futuristic UX</p>
+          <p class="lab-card-desc">
+            A speculative platform exploring how young innovators and older
+            decision-makers might collaborate in a 2040 smart-city South Africa.
+          </p>
+          <button class="lab-card-btn" data-open-drawer="era">Open case</button>
+        </article>
+
+        <article class="lab-card" data-case="reboost">
+          <div class="lab-card-top">
+            <h3>Reboost – Gaming Microsite Launch</h3>
+            <span class="lab-pill">Microsite</span>
+          </div>
+          <p class="lab-card-meta">Reboost · Collaboration · Digital</p>
+          <p class="lab-card-desc">
+            A microsite introducing two gamer-focused flavours and inviting
+            players into the Reboost community.
+          </p>
+          <button class="lab-card-btn" data-open-drawer="reboost">Open case</button>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <!-- DRAWER OVERLAY FOR CASE STUDIES -->
+  <div class="drawer-backdrop" data-drawer-backdrop>
+    <aside class="drawer">
+      <button class="drawer-close" data-drawer-close>&times;</button>
+      <div class="drawer-content" id="drawer-content">
+        <!-- JS injects case content + outputs tabs here -->
+      </div>
+    </aside>
+  </div>
+
+  <!-- LIGHTBOX FOR IMAGE ZOOM & BROWSING -->
+  <div class="lightbox-backdrop" data-lightbox-backdrop>
+    <div class="lightbox">
+      <button class="lightbox-close" data-lightbox-close>&times;</button>
+      <div class="lightbox-inner">
+        <button class="lightbox-nav lightbox-prev" data-lightbox-prev>&lsaquo;</button>
+        <div class="lightbox-stage">
+          <div class="lightbox-zoom-layer" data-zoom-layer>
+            <img src="" alt="" data-lightbox-image />
+          </div>
+        </div>
+        <button class="lightbox-nav lightbox-next" data-lightbox-next>&rsaquo;</button>
+      </div>
+      <div class="lightbox-controls">
+        <button data-zoom-out>-</button>
+        <button data-zoom-reset>Reset</button>
+        <button data-zoom-in>+</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
